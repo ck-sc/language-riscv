@@ -1,6 +1,7 @@
 scopeName: 'source.riscv'
 fileTypes: [
   's'
+  'inc'
 ]
 name: 'RISC-V Assembler'
 foldingStartMarker: '^\\.[a-z]+\\s*$'
