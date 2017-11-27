@@ -271,7 +271,7 @@ repository:
     ]
     name: 'meta.method.call'
   'instr-csr':
-    begin: '\\b(csr[rws]([wsc]i?)?)\\b'
+    begin: '\\b(csr[rwsc]([iwsc]i?)?)\\b'
     beginCaptures:
       '0':
         name: 'keyword.mnemonic'
